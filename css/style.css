@@ -387,3 +387,28 @@ header {
     top: 0;
     transition: 0.3s all ease 0s;
 }
+
+
+/*project*/
+
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.project-box {
+    background-color: var(--box-color);
+    padding: 20px 10px;
+    border-radius: .4rem;
+    text-align: center;
+}
+
+.project-box h2 {
+    font-size: 1.2rem;
+}
+
+.project-box span {
+    font-size: .845rem;
+}
