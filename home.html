@@ -15,6 +15,8 @@
 </head>
 
 <body>
+    <!--scroll top arrow-->
+    <a href="#home" class="scroll-top"><i class='bx bx-up-arrow-alt' ></i></a>
     <header>
         <!--nav-->
         <div class="nav container">
@@ -24,8 +26,9 @@
             <ul class="navbar">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#service" class="nav-link">Services</a></li>
                 <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#project" class="nav-link">Project</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="menu-icon">
@@ -36,7 +39,7 @@
         </div>
     </header>
     <!--home-->
-    <section class="home container">
+    <section class="home container" id="home">
         <div class="home-content">
             <div class="home-img">
                 <img src="./img/avatar-img.jpg" alt="">
@@ -57,7 +60,7 @@
 
     </section>
     <!--about-->
-    <section class="about container">
+    <section class="about container" id="about">
         <h2 class="heading">About</h2>
         <!--About content-->
         <div class="about-content">
@@ -238,6 +241,23 @@
             emailjs.init("hIPAP7k_ZXUUo_shu"); // You will use your email js api key here
         })();
     </script>
+    <!--footer-->
+    <section class="footer footer-container" id="footer">
+        <div class="social">
+            <a href="mailto:ralmughidi@gmail.com" class="bx bxs-envelope"></a>
+            <a href="#" class="bx bxl-linkedin-square"></a>
+            <a href="#" class="bx bxl-twitter"></a>
+            <a href="#" class="bx bxl-github "></a>
+        </div>
+        <!--footer links-->
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <!--copyright-->
+        <p>&#169: Raghad.DEV</p>
+    </section>
 
     <!--Link to swiper js-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
